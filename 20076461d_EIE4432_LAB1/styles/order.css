@@ -1,0 +1,92 @@
+/*QIUJUNTAO 20076461d*/
+
+header{
+    background-color: #000000;
+    color:white;
+    padding: 20px;
+} 
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: lightgray;
+}
+
+nav ul li{
+    display: inline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* # - ID  . - class*/
+li.currentPage{
+    background-color: #7fffd4;
+}
+
+/* 选择鼠标悬停 */
+
+
+
+nav ul li:hover{
+    background-color: #7fffd4;
+}
+
+
+footer{
+    background-color: #000000;
+    color:white;
+    padding: 20px;  
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;/*垂直堆叠*/
+    gap: 16px;
+}
+
+.size-select{
+    display: flex;
+}
+  
+label{
+    /*label 单独显示在一行*/
+    display: block;
+}
+ 
+/*同时设定text和select*/
+input[type="text"], select{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+input[type="radio"]{
+    margin-left: 16px;
+}
+
+input[type="submit"]{
+    background-color: #000000; 
+    color: #FFFFFF; 
+    padding: 10px 20px;
+    border: none;
+    /*悬停时显示手指*/
+    cursor: pointer; 
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20076461d_Drink Ordering Form</title>
+        <link rel="stylesheet" href="styles/order.css">       
+    </head>
+
+    <body>
+       
+        <header>
+            <h1>Drink Odering Form</h1>
+        </header> 
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="currentPage">Order</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>   
+         
+        <main>
+            <!--form 允许用户输入数据并提交给服务器-->
+            <form action="#" method="POST">
+                <div class="name-input">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink:</label>
+                    <select id="drink" name="drink">
+                        <option value="bubble-milktea">Bubble Milktea</option>
+                        <option value="iced-latte">Iced Latte</option>
+                        <option value="pineapple-juice">Pineapple-Juice</option>
+                    </select>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size:</label>
+                        <label for="small">
+                            <input type="radio" id="small" name="size" value="small">Small
+                        </label> 
+                        <label for="medium">
+                            <input type="radio" id="medium" name="size" value="medium">Medium
+                        </label>
+                        <label for="large">
+                            <input type="radio" id="large" name="size" value="large">Large
+                        </label>        
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place-Order">
+                </div>
+            </form>
+
+        </main>
+        <footer>
+            <h4>20076461d QIUJUNTAO EIE4432 LAB 1 Project</h4>
+        </footer>
+        
+    </body>
+</html>
+    
